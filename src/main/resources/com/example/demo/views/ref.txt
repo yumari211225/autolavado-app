@@ -1,0 +1,24 @@
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21"
+fx:controller="com.example.demo.controllers.MainViewController">
+
+Actores:
+1. Clientes
+2. Recepcionista del lavado de autos
+3. Operadores de lavado
+Reglas:
+1. Los clientes llegan individualmente al lavado de autos.
+2. El recepcionista solo puede atender a un cliente a la vez.
+3. La capacidad del lavado de autos es de 10 espacios.
+4. Cuando el lavado de autos esté lleno, los nuevos clientes entrarán en una cola de espera.
+5. Los operadores de lavado solo pueden atender a un vehículo simultáneamente (la
+cantidad de operadores será el 30% de la capacidad total), generando una ORDEN de
+trabajo, la cual deberá añadirse a un buffer de órdenes infinito. Después de registrar su
+vehículo, el cliente esperará, poniendo la ORDEN en estado de EN PROCESO.
+6. Cuando no haya vehículos en el lavado, los operadores descansarán.
+7. En el momento en que el vehículo se ubique en el lavado, intentará ser atendido por un
+operador. Al terminar, añadirán la orden a un buffer de trabajos completados
+10. En caso de que no haya vehículos que atender, los operadores  estarán
+en reposo.
+11. Los clientes tardarán un tiempo determinado esperando y, después de recibir su
+vehículo, abandonarán el lavado de autos, permitiendo atender a clientes que estén en
+espera.

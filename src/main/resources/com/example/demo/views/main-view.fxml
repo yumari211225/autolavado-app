@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="MainContainer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-color: #656a73;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controllers.MainViewController">
+   <children>
+      <ImageView fx:id="Recepcion" fitHeight="152.0" fitWidth="172.0" layoutX="588.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/establecimiento.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Spot1" fitHeight="127.0" fitWidth="138.0" layoutX="117.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/lugar-libre.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Spot2" fitHeight="127.0" fitWidth="138.0" layoutX="276.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/lugar-libre.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Spot3" fitHeight="127.0" fitWidth="138.0" layoutX="428.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/lugar-libre.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Spot4" fitHeight="127.0" fitWidth="138.0" layoutX="588.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/lugar-libre.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Spot5" fitHeight="127.0" fitWidth="138.0" layoutX="745.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/lugar-libre.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Spot6" fitHeight="127.0" fitWidth="138.0" layoutX="117.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/lugar-libre.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Spot7" fitHeight="127.0" fitWidth="138.0" layoutX="276.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/lugar-libre.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Spot8" fitHeight="127.0" fitWidth="138.0" layoutX="428.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/lugar-libre.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Spot9" fitHeight="127.0" fitWidth="138.0" layoutX="588.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/lugar-libre.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Spot10" fitHeight="127.0" fitWidth="138.0" layoutX="745.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../assets/lugar-libre.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
